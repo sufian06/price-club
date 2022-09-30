@@ -1,6 +1,6 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import React, { useState } from "react";
-import Link from "./Link/Link";
+import Link from "../Link/Link";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
